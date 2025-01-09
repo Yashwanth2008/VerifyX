@@ -127,11 +127,6 @@ class BackButton extends StatelessWidget {
       padding: const EdgeInsets.all(26.0),
       child: TextButton(
         onPressed: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text("Processing"),
-            ),
-          );
           Navigator.pop(context);
         },
         child: const Text(

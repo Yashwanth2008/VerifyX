@@ -1,4 +1,5 @@
 import 'package:catalyst_app/screens/signupScreen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AuthenticationPage extends StatelessWidget {
@@ -118,14 +119,9 @@ class SignupPageButton extends StatelessWidget {
       padding: const EdgeInsets.all(26),
       child: TextButton(
         onPressed: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text("Processing"),
-            ),
-          );
           Navigator.push(
             context,
-            MaterialPageRoute(
+            CupertinoPageRoute(
               builder: (context) => const SignupPage(),
             ),
           );
