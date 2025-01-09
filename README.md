@@ -1,1 +1,1 @@
-# catalyst_app
+# VerifyX
