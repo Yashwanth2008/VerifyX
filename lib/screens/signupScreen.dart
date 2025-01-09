@@ -135,7 +135,7 @@ class BackButton extends StatelessWidget {
           Navigator.pop(context);
         },
         child: const Text(
-          "Back",
+          "Go Back",
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
