@@ -1,4 +1,4 @@
-import 'package:catalyst_app/screens/signu_screen.dart';
+import 'package:catalyst_app/screens/signup_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
