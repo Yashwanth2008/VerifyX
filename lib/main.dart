@@ -1,4 +1,4 @@
-import 'package:catalyst_app/screens/loginScreen.dart';
+import 'package:catalyst_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
