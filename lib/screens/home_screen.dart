@@ -1,3 +1,4 @@
+import 'package:catalyst_app/screens/drawer_screen.dart';
 import 'package:flutter/material.dart';
 
 class Homescreen extends StatelessWidget {
@@ -5,10 +6,24 @@ class Homescreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
+    return Scaffold(
+      drawer: const CustomDrawer(),
+      appBar: AppBar(
+        title: const Text(
+          "VerifyX",
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.person),
+          ),
+        ],
+      ),
+      body: const Center(
         child: Text(
           "Hello World",
+          style: TextStyle(fontSize: 20),
         ),
       ),
     );
