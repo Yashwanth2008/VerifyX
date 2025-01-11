@@ -1,4 +1,3 @@
-import 'package:catalyst_app/screens/home_screen.dart';
 import 'package:catalyst_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
